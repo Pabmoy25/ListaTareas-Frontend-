@@ -7,9 +7,21 @@ const FormularioTareas = () => {
   const [tarea, setTarea] = useState("");
   const [tareas, setTareas] = useState([]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("desde el evento submit");
+
+    /* alternativa al tareas.push(asd) */
+    setTareas([...tareas, tarea])
+
+    /* Limpia el formulario */
+    setTarea("");
+
+  };
+
   return (
     <section>
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Form.Group
           className="mb-3 d-flex"
           controlId="exampleForm.ControlInput1"
