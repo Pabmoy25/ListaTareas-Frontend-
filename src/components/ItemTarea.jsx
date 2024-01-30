@@ -1,9 +1,9 @@
 import { ListGroup } from "react-bootstrap";
 
-const ItemTarea = () => {
+const ItemTarea = ({nombreTarea}) => {
     return (
         <div>
-             <ListGroup.Item>tarea 1</ListGroup.Item>
+             <ListGroup.Item>{nombreTarea}</ListGroup.Item>
         </div>
     );
 };
