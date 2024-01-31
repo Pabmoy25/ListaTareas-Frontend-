@@ -15,7 +15,7 @@ en el input y presionar enter.
 
 - git clone https://github.com/Pabmoy25/TPReactListaTareas.git
 
-Luego de clonar, seguir los siguientes pasos:
+Luego de clonar, seguir los siguientes pasos en el editor de código:
 
 ```
 npm install //para instalar las dependencias
