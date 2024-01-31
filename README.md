@@ -1,8 +1,29 @@
-# React + Vite
+# TP React - Ejercicio 4 - Lista de tareas 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripcion
 
-Currently, two official plugins are available:
+Crear una aplicación web que muestre una lista de tareas, al ingresar una tarea
+en el input y presionar enter.
+(Se agregó Boton para poder borrar la tarea ingresada).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Librerias y Framewroks
+
+- [NodeJS 20.11.0](https://nodejs.org/en)
+- [Bootstraps 5 v2.10.0](https://react-bootstrap.netlify.app) 
+
+## Clonar y probar el proyecto
+
+- git clone https://github.com/Pabmoy25/TPReactListaTareas.git
+
+Luego de clonar, seguir los siguientes pasos:
+
+```
+npm install //para instalar las dependencias
+npm run dev //para comenzar a ejecutar el proyecto en modo desarrollo
+```
+
+## Deploy del Proyecto
+
+``` 
+
+
