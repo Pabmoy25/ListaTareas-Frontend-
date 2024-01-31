@@ -12,11 +12,15 @@ const FormularioTareas = () => {
     console.log("desde el evento submit");
 
     /* alternativa al tareas.push(asd) */
-    setTareas([...tareas, tarea])
+    setTareas([...tareas, tarea]);
 
     /* Limpia el formulario */
     setTarea("");
+  };
 
+  const borrarTarea = (nombreTarea) => {
+    const copiaTareas = tareas.filter((tarea) => tarea !== nombreTarea);
+    setTareas(copiaTareas);
   };
 
   return (
@@ -40,7 +44,7 @@ const FormularioTareas = () => {
           </Button>
         </Form.Group>
       </Form>
-      <ListaTareas arrayTareas={tareas} ></ListaTareas>
+      <ListaTareas arrayTareas={tareas} borrarTarea={borrarTarea}></ListaTareas>
     </section>
   );
 };
