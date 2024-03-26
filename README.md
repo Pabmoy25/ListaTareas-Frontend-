@@ -1,4 +1,4 @@
-# TP React - Ejercicio 4 - Lista de tareas 
+# TP React & Backend - Lista de tareas 
 
 ## Descripcion
 
